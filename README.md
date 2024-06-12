@@ -1,6 +1,6 @@
 # google-image-search camera modular service
 
-*google-image-search* is a Viam modular service that provides camera capabilities, using the [Google Programmable Search Engine API](https://developers.google.com/custom-search/docs/structured_search#sort-by-attribute).
+*google-image-search* is a Viam modular service that provides camera capabilities, using the [Google Programmable Search Engine API](https://developers.google.com/custom-search/docs/structured_search#sort-by-attribute) to return images from a Google search based on a text query.
 
 The model this module makes available is *mcvella:camera:google-image-search*
 
