@@ -6,7 +6,7 @@
   "models": [
     {
       "api": "rdk:component:camera",
-      "model": "viam-labs:camera:image-dir"
+      "model": "mcvella:camera:google-image-search"
     }
   ],
   "entrypoint": "run.sh"
