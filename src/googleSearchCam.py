@@ -93,8 +93,8 @@ class googleSearchCam(Camera, Reconfigurable):
         # Use Google search to get metadata
         search_uri = f"https://www.googleapis.com/customsearch/v1?key={self.google_api_key}&searchType=image&q={self.query}&num=1&start={image_index}&cx={self.google_search_engine_id}"
         meta = requests.get(search_uri)
-        LOGGER.error(self.query_index.get(self.query))
-        LOGGER.error(meta.json()['items'][0]['link'])
+        LOGGER.debug(self.query_index.get(self.query))
+        LOGGER.debug(meta.json()['items'][0]['link'])
 
         # increment for next get_image() call
         self.query_index[self.query] = image_index + 1
