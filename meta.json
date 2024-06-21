@@ -2,7 +2,7 @@
   "module_id": "mcvella:google-image-search-cam",
   "visibility": "public",
   "url": "https://github.com/mcvella/viam-google-image-search-cam",
-  "description": "A Viam camera model that reads images sequentially from a requested directory on the host machine",
+  "description": "A Viam camera model that reads images based on a google image API search",
   "models": [
     {
       "api": "rdk:component:camera",
